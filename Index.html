@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Curso html</title>
     <!-- link:css*2+link:favicon+script:src*2 -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -14,11 +18,68 @@
     <script src="js/modernizr.js"></script>
     <script src="js/prefixfree.js"></script> -->
   </head>
-  <body>
-    <div>
-        Hello world 3 asteroide Y4
-    </div>
 
+  <body>
+
+    <header>
+      <a href="#home">
+        <div id="logo"></div>
+      </a>
+      <mav>
+        <ul> 
+          <li>
+            <a class="option" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="option" href="#subjetcs">Temas </a>
+          </li>
+          <li>
+            <a class="option" href="#gallery">Galeria </a>
+          </li>
+          <li>
+            <a class="option last-option" href="#contact">Contacto </a>
+          </li>
+        </ul>
+      </mav>
+    </header>
+
+    <main>
+      <video autoplay muted loop>
+          <source src="video/vdio2.mp4" type="video/mp4" />
+      </video>
+      <section id="home">
+          <div class="ballon"></div>
+          <h2> Bienvenido al curso de HTML5 y CSS3</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. </P>
+          <a href="#subjects">Conozca mas</a>
+          <div id="down"></div>
+      </section>
+      <section id="subjects">
+          <h3>Temas</h3>
+          <article>
+            <div id="img1"></div>
+            <h4>Subtitulo nivel 4</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#"></a>
+          </article>
+          <article>
+            <div id="img2"></div>
+            <h4>Subtitulo nivel 4</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#"></a>
+          </article>
+          <article>
+            <div id="img3"></div>
+            <h4>Subtitulo nivel 4</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="#"></a>
+          </article>
+      </section>
+
+    </main>
 
   </body>
 </html>
